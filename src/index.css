@@ -9,9 +9,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('./Assets/CyberSecBG.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Hero{
+  background-image: url('./Assets/Hero.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
