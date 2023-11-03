@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='border-[16px] h-[558px] w-[350px] rounded-t-3xl bg-slate-200 border-white mt-24 mx-auto'>
+      <div className='border-l-[16px] border-r-[16px] border-t-[16px] h-[560px] w-[350px] rounded-t-3xl bg-slate-200 border-white mt-24 mx-auto'>
         <div className='border border-white bg-slate-50 rounded-b-xl h-5 w-[60%] mx-auto flex'>
           <p className=' bg-black h-1 w-8 my-auto mx-auto'/>
         </div>
