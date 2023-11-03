@@ -12,7 +12,7 @@ const Services = () => {
             <h1 className='text-3xl font-semibold'>Our Services</h1>
         </div>
             
-        <div className='flex text-left w-[80%] mx-auto my-16'>
+        <div className='flex text-left w-[80%] mx-auto mt-16'>
             <div className='mx-auto w-[350px]'>
                 <div className='my-8 flex'>
                     <div>

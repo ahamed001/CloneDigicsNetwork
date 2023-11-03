@@ -7,10 +7,7 @@ const Footer = () => {
   const currentYear = currentDate.getFullYear();
 
   return (
-    <div className='bg-white'>
-      <div>
-        <img src={require('../Assets/bitss_icon.png')} alt="Bitss Icon" className='w-72 my-4 mx-auto' />
-      </div>
+    <div className='bg-white -mt-4'>
       <div className='bg-blue-950 h-36 flex justify-around'>
         <p className='text-white my-auto'>Copyright &copy; {currentYear} bitss.fr | All Rights Reserved</p>
         <div className='my-auto'>
