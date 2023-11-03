@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
 const Footer = () => {
 
@@ -18,6 +19,11 @@ const Footer = () => {
         </div>
         <div className='my-auto'>
           <p className='text-white'>Cookie Policy Contact Us</p>
+        </div>
+        <div className='flex my-auto'> 
+          <FaFacebook className='text-gray-400 text-xl mx-3 hover:text-[#1877F2] cursor-pointer'/>
+          <FaTwitter className='text-gray-400 text-xl mx-3 hover:text-[#1DA1F2] cursor-pointer'/>
+          <FaLinkedinIn className='text-gray-400 text-xl mx-3 hover:text-[#1DA1F2] cursor-pointer'/>
         </div>
       </div>
     </div>
