@@ -6,7 +6,7 @@ import { LuAlarmClock } from 'react-icons/lu'
 
 const Services = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-white pt-32'>
         <div>
             <p className=' text-sm font-medium text-gray-600 py-5'>BEST SERVICES</p>
             <h1 className='text-3xl font-semibold'>Our Services</h1>

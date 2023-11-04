@@ -1,4 +1,7 @@
 import React from 'react'
+import { MdOutlinePersonalInjury } from 'react-icons/md'
+import { GiAchievement } from 'react-icons/gi'
+import { PiCoffeeThin, PiRocketLight } from 'react-icons/pi'
 
 const Succeed = () => {
   return (
@@ -29,6 +32,48 @@ const Succeed = () => {
             </div>
         </div>
         <div className='DotMap h-80 text-slate-50 text-left flex'>
+            <div className=' w-[80%] flex justify-around text-black m-auto '>
+                <div className='flex'>
+                    <div className=' my-auto text-7xl text-purple-800'>
+                        <MdOutlinePersonalInjury />
+                    </div>
+                    <div>
+                        <p className=' text-5xl py-2 font-bold'>300+</p>
+                        <p className='font-semibold'>Support Given</p>
+                    </div>
+                </div>
+
+                <div className='flex'>
+                    <div className=' my-auto text-7xl text-purple-800'>
+                        <PiRocketLight/>
+                    </div>
+                    <div>
+                        <p className=' text-5xl py-2 font-bold'>254+</p>
+                        <p className=' font-semibold'>Secured Syestem</p>
+                    </div>
+                </div>
+
+                <div className='flex'>
+                    <div className=' my-auto text-7xl text-purple-800'>
+                        <GiAchievement/>
+                    </div>
+                    <div>
+                        <p className=' text-5xl py-2 font-bold'>100%</p>
+                        <p className=' font-semibold'>Certified</p>
+                    </div>
+                </div>
+
+                <div className='flex'>
+                    <div className=' my-auto text-7xl text-purple-800'>
+                        <PiCoffeeThin/>
+                    </div>
+                    <div>
+                        <p className=' text-5xl py-2 font-bold'>100%</p>
+                        <p className=' font-semibold'>Customer Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+            
             
         </div>
     </div>
