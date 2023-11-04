@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyBitss = () => {
   return (
-    <div className='bg-white py-40'>
+    <div className='bg-white pt-40 pb-12'>
         <div className='w-[80%] mx-auto flex'>
             <div className='mx-auto'>
                 <img src={require('../Assets/WhyBitss.png')} alt="" className='w-96 pt-8 bg-white' />

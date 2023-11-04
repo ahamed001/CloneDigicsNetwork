@@ -7,8 +7,8 @@ const Footer = () => {
   const currentYear = currentDate.getFullYear();
 
   return (
-    <div className='bg-white -mt-4'>
-      <div className='bg-blue-950 h-36 flex justify-around'>
+    <div className='bg-white h-32'>
+      <div className='bg-blue-900 h-28 flex justify-around'>
         <p className='text-white my-auto'>Copyright &copy; {currentYear} bitss.fr | All Rights Reserved</p>
         <div className='my-auto'>
           <img src={require('../Assets/bitss_icon.png')} alt="Bitss Icon" className='w-10 my-4 mx-auto bg-white' />
@@ -18,9 +18,9 @@ const Footer = () => {
           <p className='text-white'>Cookie Policy Contact Us</p>
         </div>
         <div className='flex my-auto'> 
-          <FaFacebook className='text-gray-400 text-xl mx-3 hover:text-[#1877F2] cursor-pointer'/>
-          <FaTwitter className='text-gray-400 text-xl mx-3 hover:text-[#1DA1F2] cursor-pointer'/>
-          <FaLinkedinIn className='text-gray-400 text-xl mx-3 hover:text-[#1DA1F2] cursor-pointer'/>
+          <FaFacebook className='text-gray-200 text-xl mx-3 hover:text-[#1877F2] cursor-pointer'/>
+          <FaTwitter className='text-gray-200 text-xl mx-3 hover:text-[#1DA1F2] cursor-pointer'/>
+          <FaLinkedinIn className='text-gray-200 text-xl mx-3 hover:text-[#1DA1F2] cursor-pointer'/>
         </div>
       </div>
     </div>
