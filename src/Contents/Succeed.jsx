@@ -28,6 +28,9 @@ const Succeed = () => {
                 <p className=' text-gray-500 font-medium py-4'>Contonual Security Enhancements</p>
             </div>
         </div>
+        <div className='DotMap h-80 text-slate-50 text-left flex'>
+            
+        </div>
     </div>
   )
 }

@@ -32,7 +32,7 @@ const Home = () => {
 
         <div className='flex justify-center'>
           <p className='mx-5 px-10 h-12 flex items-center rounded-full bg-orange-100 text-orange-500 hover:text-white hover:bg-orange-400 transition-all ease-in-out'>Learn More</p>
-          <p className='mx-5 px-10 h-12 flex items-center rounded-full bg-blue-200 text-blue-500 hover:text-white hover:bg-blue-500 transition-all ease-in-out'>Contact Us</p>
+          <p className='mx-5 px-10 h-12 flex items-center rounded-full bg-blue-100 text-blue-500 hover:text-white hover:bg-blue-500 transition-all ease-in-out'>Contact Us</p>
         </div>
       </div>
 

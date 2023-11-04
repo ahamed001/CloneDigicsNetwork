@@ -41,7 +41,7 @@ const About = () => {
         <div className='bg-white pb-16'>
           <img src={require('../Assets/About.png')} alt="" className='w-[600px] bg-white' />
           <div className='text-right'>
-            <button className='px-10 py-4 my-8 bg-cyan-400 text-white'>More About</button>
+            <button className='px-10 py-4 my-8 bg-cyan-400 text-white hover:bg-cyan-500'>More About</button>
           </div>
         </div>
 
@@ -61,9 +61,6 @@ const About = () => {
           </div>
           
         </div>
-      </div>
-      <div>
-        <img src={require('../Assets/bitss_icon.png')} alt="Bitss Icon" className='w-72 my-2 mx-auto' />
       </div>
       
     </div>
