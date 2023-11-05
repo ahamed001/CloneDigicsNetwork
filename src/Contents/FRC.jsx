@@ -7,9 +7,9 @@ const FRC = () => {
             We are a French research company committed to protecting your online website, 
             video site, network, server and stop contact page spamming
         </div>
-        <div className='flex text-left w-[75%] mx-auto'>
+        <div className='flex justify-around text-left w-[75%] mx-auto'>
 
-            <div className='w-[350px] p-4 mx-auto'>
+            <div className='w-[350px] p-4'>
                 <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
                     <img src={require('../Assets/Security.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Network Access Security</h1>
@@ -30,7 +30,7 @@ const FRC = () => {
                 </div>
             </div>
 
-            <div className='w-[350px] p-4 mx-auto'>
+            <div className='w-[350px] p-4'>
                 <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
                     <img src={require('../Assets/Sites.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Bitss WP protects all Website including WordPress sites</h1>
@@ -49,7 +49,7 @@ const FRC = () => {
                 </div>
             </div>
 
-            <div className='w-[350px] p-4 mx-auto'>
+            <div className='w-[350px] p-4'>
                 <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
                     <img src={require('../Assets/Chart.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Dedicated Server Access Security</h1>

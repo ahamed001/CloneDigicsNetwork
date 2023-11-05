@@ -20,9 +20,9 @@ const About = () => {
 
           <div className='flex my-6'>
             <div>
-              <img src={require('../Assets/Target.png')} alt="" className='w-16 bg-white' />
+              <img src={require('../Assets/Target.png')} alt="" className='w-20 bg-white' />
             </div>
-            <div className=' text-left'>
+            <div className=' text-left mx-2'>
               <h1 className='text-2xl font-bold'>Our Mission</h1>
               <p className=' text-gray-500'>We offer comprehensive security solutions tailored to your specific needs</p>
             </div>

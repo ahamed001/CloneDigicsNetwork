@@ -12,8 +12,8 @@ const Services = () => {
             <h1 className='text-3xl font-semibold'>Our Services</h1>
         </div>
             
-        <div className='flex text-left w-[80%] mx-auto mt-16'>
-            <div className='mx-auto w-[350px]'>
+        <div className='flex justify-around text-left w-[80%] mx-auto mt-16'>
+            <div className=' w-[350px]'>
                 <div className='my-8 flex'>
                     <div>
                         <img src={require('../Assets/Support.png')} alt="" className='w-96 bg-white mr-4' />
@@ -41,7 +41,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className='mx-auto w-[350px]'>
+            <div className=' w-[350px]'>
                 <div className='my-8 flex'>
                     <div>
                         <FaBarcode className=' text-5xl mr-4 mt-1'/>
@@ -71,7 +71,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className='mx-auto w-[350px]'>
+            <div className=' w-[350px]'>
                 <div className='my-8 flex'>
                     <div>
                         <IoDiamondOutline className=' text-5xl mr-4 mt-1'/>
