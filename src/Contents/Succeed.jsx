@@ -6,10 +6,10 @@ import { PiCoffeeThin, PiRocketLight } from 'react-icons/pi'
 const Succeed = () => {
   return (
     <div className='bg-white'>
-        <div className='w-[30%] mx-auto my-28 pt-16'>
-            <h1 className='text-4xl text-purple-800'>What's More? We Can Help You Succeed.</h1>
+        <div className='md:w-[30%] w-[90%] text-center mx-auto md:my-28 mb-10 pt-16'>
+            <h1 className='md:text-4xl text-2xl text-purple-800'>What's More? We Can Help You Succeed.</h1>
         </div>
-        <div className='flex justify-around text-left w-[80%] mx-auto pb-20'>
+        <div className='md:flex justify-around text-left md:w-[80%] w-[90%] mx-auto pb-20'>
             <div className=' w-64 px-3 hover:cursor-pointer'>
                 <img src={require('../Assets/Brain.png')} alt="" className='w-16 pt-2 bg-white' />
                 <h1 className=' text-2xl py-2 font-semibold text-purple-800 hover:text-black ease-in-out'>Great advices</h1>
@@ -32,43 +32,43 @@ const Succeed = () => {
             </div>
         </div>
         <div className='DotMap h-80 text-slate-50 text-left flex'>
-            <div className=' w-[80%] flex justify-around text-black m-auto '>
-                <div className='flex'>
-                    <div className=' my-auto text-7xl text-purple-800'>
+            <div className=' w-[80%] md:flex justify-around text-black m-auto '>
+                <div className='flex my-5 md:my-0'>
+                    <div className=' my-auto md:text-7xl text-5xl text-purple-800'>
                         <MdOutlinePersonalInjury />
                     </div>
                     <div>
-                        <p className=' text-5xl py-2 font-bold'>300+</p>
+                        <p className=' md:text-5xl text-4xl py-2 font-bold'>300+</p>
                         <p className='font-semibold'>Support Given</p>
                     </div>
                 </div>
 
-                <div className='flex'>
-                    <div className=' my-auto text-7xl text-purple-800'>
+                <div className='flex my-5 md:my-0'>
+                    <div className=' my-auto md:text-7xl text-5xl text-purple-800'>
                         <PiRocketLight/>
                     </div>
                     <div>
-                        <p className=' text-5xl py-2 font-bold'>254+</p>
+                        <p className='md:text-5xl text-4xl py-2 font-bold'>254+</p>
                         <p className=' font-semibold'>Secured Syestem</p>
                     </div>
                 </div>
 
-                <div className='flex'>
-                    <div className=' my-auto text-7xl text-purple-800'>
+                <div className='flex my-5 md:my-0'>
+                    <div className=' my-auto md:text-7xl text-5xl text-purple-800'>
                         <GiAchievement/>
                     </div>
                     <div>
-                        <p className=' text-5xl py-2 font-bold'>100%</p>
+                        <p className=' md:text-5xl text-4xl py-2 font-bold'>100%</p>
                         <p className=' font-semibold'>Certified</p>
                     </div>
                 </div>
 
-                <div className='flex'>
-                    <div className=' my-auto text-7xl text-purple-800'>
+                <div className='flex my-5 md:my-0'>
+                    <div className=' my-auto md:text-7xl text-5xl text-purple-800'>
                         <PiCoffeeThin/>
                     </div>
                     <div>
-                        <p className=' text-5xl py-2 font-bold'>100%</p>
+                        <p className=' md:text-5xl text-4xl py-2 font-bold'>100%</p>
                         <p className=' font-semibold'>Customer Satisfaction</p>
                     </div>
                 </div>

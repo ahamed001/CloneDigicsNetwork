@@ -3,14 +3,14 @@ import React from 'react'
 const FRC = () => {
   return (
     <div>
-        <div className=' w-[50%] mx-auto border-l-4 border-orange-500 px-4 py-2 my-20 text-left text-2xl'>
+        <div className=' md:w-[50%] w-[90%] mx-auto border-l-4 border-orange-500 pl-4 py-2 md:my-20 my-5 text-left md:text-2xl text-lg'>
             We are a French research company committed to protecting your online website, 
             video site, network, server and stop contact page spamming
         </div>
-        <div className='flex justify-around text-left w-[75%] mx-auto'>
+        <div className='md:flex justify-around text-left md:w-[75%] mx-auto'>
 
-            <div className='w-[350px] p-4'>
-                <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
+            <div className='md:w-[350px] p-4'>
+                <div className=' bg-white my-4 pb-12 md:px-12 px-4 shadow-xl'>
                     <img src={require('../Assets/Security.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Network Access Security</h1>
                     <p className=' text-gray-500 font-medium py-4'>
@@ -22,7 +22,7 @@ const FRC = () => {
                     </p>
                     <p className='mt-4 font-bold text-sm hover:cursor-pointer hover:text-red-500'>READ MORE &rarr;</p>
                 </div>
-                <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
+                <div className=' bg-white my-4 pb-12 md:px-12 px-4 shadow-xl'>
                     <img src={require('../Assets/Chart.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Malware and Scam Protection</h1>
                     <p className=' text-gray-500 font-medium py-4'>Shield your systems from malware, ransomware, and phishing attacks</p>
@@ -30,8 +30,8 @@ const FRC = () => {
                 </div>
             </div>
 
-            <div className='w-[350px] p-4'>
-                <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
+            <div className='md:w-[350px] p-4'>
+                <div className=' bg-white my-4 pb-12 md:px-12 px-4 shadow-xl'>
                     <img src={require('../Assets/Sites.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Bitss WP protects all Website including WordPress sites</h1>
                     <p className=' text-gray-500 font-medium py-4'>
@@ -41,7 +41,7 @@ const FRC = () => {
                     </p>
                     <p className='mt-4 font-bold text-sm hover:cursor-pointer hover:text-red-500'>READ MORE &rarr;</p>
                 </div>
-                <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
+                <div className=' bg-white my-4 pb-12 md:px-12 px-4 shadow-xl'>
                     <img src={require('../Assets/Chart.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Incident Response and Forensics</h1>
                     <p className=' text-gray-500 font-medium py-4'>Rapidly respond to security incidents, minimizing potential damages</p>
@@ -49,8 +49,8 @@ const FRC = () => {
                 </div>
             </div>
 
-            <div className='w-[350px] p-4'>
-                <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
+            <div className='md:w-[350px] p-4'>
+                <div className=' bg-white my-4 pb-12 md:px-12 px-4 shadow-xl'>
                     <img src={require('../Assets/Chart.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Dedicated Server Access Security</h1>
                     <p className=' text-gray-500 font-medium py-4'>
@@ -59,7 +59,7 @@ const FRC = () => {
                     </p>
                     <p className='mt-4 font-bold text-sm hover:cursor-pointer hover:text-red-500'>READ MORE &rarr;</p>
                 </div>
-                <div className=' bg-white my-4 pb-12 px-12 shadow-xl'>
+                <div className=' bg-white my-4 pb-12 md:px-12 px-4 shadow-xl'>
                     <img src={require('../Assets/Security.png')} alt="" className='w-16 pt-8 bg-white' />
                     <h1 className=' text-2xl font-semibold text-slate-800 py-2'>Cloud Protection and Client Login Pathway Security</h1>
                     <p className=' text-gray-500 font-medium py-4'>

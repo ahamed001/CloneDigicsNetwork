@@ -3,9 +3,9 @@ import React from 'react'
 const Home = () => {
   
   return (
-    <div className='Hero h-[88vh] text-slate-50 text-left flex'>
+    <div className='Hero h-[88vh] text-slate-50 text-left flex justify-around'>
 
-      <div className=' w-[45%] mx-auto my-28'>
+      <div className=' w-[45%] my-28'>
         <div>
           <h1 className=' text-5xl font-bold my-4'>Welcome to BITSS.fr</h1>
         </div>
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='border-l-[16px] border-r-[16px] border-t-[16px] h-[560px] w-[350px] rounded-t-3xl bg-slate-200 border-white mt-24 mx-auto'>
+      <div className='border-l-[16px] border-r-[16px] border-t-[16px] h-[560px] w-[350px] rounded-t-3xl bg-slate-200 border-white mt-24'>
         <div className='border border-white bg-slate-50 rounded-b-xl h-5 w-[60%] mx-auto flex'>
           <p className=' bg-black h-1 w-8 my-auto mx-auto'/>
         </div>

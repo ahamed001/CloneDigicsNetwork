@@ -1,26 +1,33 @@
-import './App.css';
+// import './App.css';
+// import About from './Contents/About';
+// import FRC from './Contents/FRC';
+// import Rings from './Contents/Rings';
+// import Services from './Contents/Services';
+// import Succeed from './Contents/Succeed';
+// import WhyBitss from './Contents/WhyBitss';
+// import Footer from './Footer/Footer';
+// import Home from './Home/Home';
+// import Navbar from './Navbar/Navbar';
+
+import Footer from "./Footer/Footer";
+import WhyBitss from './Contents/WhyBitss';
 import About from './Contents/About';
-import FRC from './Contents/FRC';
-import Rings from './Contents/Rings';
 import Services from './Contents/Services';
 import Succeed from './Contents/Succeed';
-import WhyBitss from './Contents/WhyBitss';
-import Footer from './Footer/Footer';
-import Home from './Home/Home';
-import Navbar from './Navbar/Navbar';
+import FRC from './Contents/FRC';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/>
       <Home/>
-      <Rings/>
+      <Rings/>*/}
       <FRC/>
       <Succeed/>
       <Services/>
-      <About/>
+      <About/> 
       <WhyBitss/>
-      <Footer/>
+      <Footer/> 
     </div>
   );
 }

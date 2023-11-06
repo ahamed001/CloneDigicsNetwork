@@ -7,13 +7,13 @@ import { LuAlarmClock } from 'react-icons/lu'
 const Services = () => {
   return (
     <div className='bg-white pt-32'>
-        <div>
+        <div className='text-center'>
             <p className=' text-sm font-medium text-gray-600 py-5'>BEST SERVICES</p>
             <h1 className='text-3xl font-semibold'>Our Services</h1>
         </div>
             
-        <div className='flex justify-around text-left w-[80%] mx-auto mt-16'>
-            <div className=' w-[350px]'>
+        <div className='md:flex justify-around text-left md:w-[80%] w-[90%] mx-auto mt-16'>
+            <div className=' md:w-[350px]'>
                 <div className='my-8 flex'>
                     <div>
                         <img src={require('../Assets/Support.png')} alt="" className='w-96 bg-white mr-4' />
@@ -41,10 +41,10 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className=' w-[350px]'>
+            <div className=' md:w-[350px]'>
                 <div className='my-8 flex'>
                     <div>
-                        <FaBarcode className=' text-5xl mr-4 mt-1'/>
+                        <FaBarcode className=' text-5xl md:mr-4 mt-1'/>
                     </div>
                     <div>
                         <h1 className=' text-2xl font-semibold'>Quick Response</h1>
@@ -58,7 +58,7 @@ const Services = () => {
                 </div>
                 <div className='my-8 flex'>
                     <div>
-                        <TbBulb className=' text-5xl mr-4 mt-1'/>
+                        <TbBulb className=' text-5xl md:mr-4 mt-1'/>
                     </div>
                     <div>
                         <h1 className=' text-2xl font-semibold'>Real Solutions</h1>
@@ -71,10 +71,10 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className=' w-[350px]'>
+            <div className=' md:w-[350px]'>
                 <div className='my-8 flex'>
                     <div>
-                        <IoDiamondOutline className=' text-5xl mr-4 mt-1'/>
+                        <IoDiamondOutline className=' text-5xl md:mr-4 mt-1'/>
                     </div>
                     <div>
                         <h1 className=' text-2xl font-semibold'>Audits And Risk Assessments</h1>
@@ -87,7 +87,7 @@ const Services = () => {
                 </div>
                 <div className='my-8 flex'>
                     <div>
-                        <LuAlarmClock className=' text-6xl mr-4 mt-1'/>
+                        <LuAlarmClock className=' md:text-6xl text-5xl md:mr-4 mt-1'/>
                     </div>
                     <div>
                         <h1 className=' text-2xl font-semibold'>Secure Code Review And Application Security</h1>
