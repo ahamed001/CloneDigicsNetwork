@@ -5,8 +5,8 @@ const Rings = () => {
   return (
     
     <div className=' bg-blue-50'>
-        <div className='flex justify-around h-[90vh] w-[80%] mx-auto'>
-            <div className='w-[300px] m-auto'>
+        <div className='md:flex justify-around md:w-[80%] w-[90%] mx-auto text-center py-20'>
+            <div className='md:w-[300px] m-auto md:pb-0 pb-10'>
                 <div className=' flex justify-center'>
                     <div className='rounded-full border-[8px] border-violet-900 text-violet-900 w-40 h-40'>
                         <p className=' text-3xl font-bold py-12'>100%</p>
@@ -24,7 +24,7 @@ const Rings = () => {
                 </div>
             </div>
 
-            <div className='w-[300px] m-auto'>
+            <div className='md:w-[300px] m-auto md:pb-0 pb-10'>
                 <div className=' flex justify-center'>
                     <div className='rounded-full border-[8px] border-blue-400 text-blue-400 w-40 h-40'>
                         <p className=' text-3xl font-bold py-12'>100%</p>
@@ -42,7 +42,7 @@ const Rings = () => {
                 </div>
             </div>
 
-            <div className='w-[300px] m-auto'>
+            <div className='md:w-[300px] m-auto md:pb-0 pb-10'>
                 <div className=' flex justify-center'>
                     <div className='rounded-full border-[8px] border-purple-400 text-purple-400 w-40 h-40'>
                         <p className=' text-3xl font-bold py-12'>100%</p>
@@ -59,7 +59,7 @@ const Rings = () => {
                 </div>
             </div>
 
-            <div className='w-[300px] m-auto'>
+            <div className='md:w-[300px] m-auto '>
                 <div className=' flex justify-center'>
                     <div className='rounded-full border-[8px] border-orange-400 text-orange-400 w-40 h-40'>
                         <p className=' text-3xl font-bold py-12'>100%</p>
