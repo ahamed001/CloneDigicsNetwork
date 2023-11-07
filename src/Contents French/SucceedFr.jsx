@@ -3,32 +3,32 @@ import { MdOutlinePersonalInjury } from 'react-icons/md'
 import { GiAchievement } from 'react-icons/gi'
 import { PiCoffeeThin, PiRocketLight } from 'react-icons/pi'
 
-const Succeed = () => {
+const SucceedFr = () => {
   return (
     <div className='bg-white'>
-        <div className='md:w-[30%] w-[90%] text-center mx-auto md:my-28 mb-10 pt-16'>
-            <h1 className='md:text-4xl text-2xl text-purple-800'>What's More? We Can Help You Succeed.</h1>
+        <div className='md:w-[35%] w-[90%] text-center mx-auto md:my-28 mb-10 pt-16'>
+            <h1 className='md:text-4xl text-2xl text-purple-800'>Et quoi d'autre ? Nous pouvons vous aider à réussir.</h1>
         </div>
         <div className='md:flex justify-around text-left md:w-[80%] w-[90%] mx-auto pb-20'>
             <div className=' w-64 px-3 hover:cursor-pointer'>
                 <img src={require('../Assets/Brain.png')} alt="" className='w-16 pt-2 bg-white' />
-                <h1 className=' text-2xl py-2 font-semibold text-purple-800 hover:text-black ease-in-out'>Great advices</h1>
-                <p className=' text-gray-500 font-medium py-4'>Customized Security Solutions with our top-notch cyber defense</p>
+                <h1 className=' text-2xl py-2 font-semibold text-purple-800 hover:text-black ease-in-out'>De précieux conseils</h1>
+                <p className=' text-gray-500 font-medium py-4'>Solutions de sécurité personnalisées avec notre défense cybernétique de premier ordre</p>
             </div>
             <div className='w-64 px-3 hover:cursor-pointer'>
                 <img src={require('../Assets/Brake.png')} alt="" className='w-16 pt-4 bg-white' />
-                <h1 className=' text-2xl font-semibold py-2 text-purple-800 hover:text-black ease-in-out'>Extreme security</h1>
-                <p className=' text-gray-500 font-medium py-4'>Proactive Threat Monitoring and personal cyber protection</p>
+                <h1 className=' text-2xl font-semibold py-2 text-purple-800 hover:text-black ease-in-out'>Sécurité maximale</h1>
+                <p className=' text-gray-500 font-medium py-4'>Surveillance proactive des menaces et protection personnelle contre les cyberattaques</p>
             </div>
             <div className='w-64 px-3 hover:cursor-pointer'>
                 <img src={require('../Assets/Bell.png')} alt="" className='w-16 bg-white' />
-                <h1 className=' text-2xl font-semibold py-2 text-purple-800 hover:text-black ease-in-out'>Notification alert</h1>
-                <p className=' text-gray-500 font-medium py-4'>Employee Security Awareness Programs</p>
+                <h1 className=' text-2xl font-semibold py-2 text-purple-800 hover:text-black ease-in-out'>Alerte de notification</h1>
+                <p className=' text-gray-500 font-medium py-4'>Programmes de sensibilisation à la sécurité des employés</p>
             </div>
             <div className='w-64 px-3 hover:cursor-pointer'>
                 <img src={require('../Assets/Screen.png')} alt="" className='w-16 pt-4 bg-white' />
-                <h1 className=' text-2xl font-semibold py-2 text-purple-800 hover:text-black ease-in-out'>Regular analytic</h1>
-                <p className=' text-gray-500 font-medium py-4'>Contonual Security Enhancements</p>
+                <h1 className=' text-2xl font-semibold py-2 text-purple-800 hover:text-black ease-in-out'>Analyse régulière</h1>
+                <p className=' text-gray-500 font-medium py-4'>Améliorations constantes de la sécurité</p>
             </div>
         </div>
         <div className='DotMap h-80 text-slate-50 text-left flex'>
@@ -39,7 +39,7 @@ const Succeed = () => {
                     </div>
                     <div>
                         <p className=' md:text-5xl text-4xl py-2 font-bold'>300+</p>
-                        <p className='font-semibold'>Support Given</p>
+                        <p className='font-semibold'>Support Fourni</p>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ const Succeed = () => {
                     </div>
                     <div>
                         <p className='md:text-5xl text-4xl py-2 font-bold'>254+</p>
-                        <p className=' font-semibold'>Secured System</p>
+                        <p className=' font-semibold'>Système Sécurisé</p>
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@ const Succeed = () => {
                     </div>
                     <div>
                         <p className=' md:text-5xl text-4xl py-2 font-bold'>100%</p>
-                        <p className=' font-semibold'>Certified</p>
+                        <p className=' font-semibold'>Certifié</p>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@ const Succeed = () => {
                     </div>
                     <div>
                         <p className=' md:text-5xl text-4xl py-2 font-bold'>100%</p>
-                        <p className=' font-semibold'>Customer Satisfaction</p>
+                        <p className=' font-semibold'>Satisfaction Clientèle</p>
                     </div>
                 </div>
             </div>
@@ -80,4 +80,4 @@ const Succeed = () => {
   )
 }
 
-export default Succeed
+export default SucceedFr
