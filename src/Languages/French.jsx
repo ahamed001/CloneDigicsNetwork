@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom"
 import AboutFr from "../Contents French/AboutFr"
 import FRCFr from "../Contents French/FRCFr"
 import RingsFr from "../Contents French/RingsFr"
@@ -11,6 +12,7 @@ import NavbarFr from "../Navbar/NavbarFr"
 const French = () => {
   return (
     <div>
+      <div>
         <NavbarFr/>
         <HomeFr/>
         <RingsFr/>
@@ -20,6 +22,8 @@ const French = () => {
         <AboutFr/>
         <WhyBitssFr/>
         <FooterFr/>
+      </div>
+      <Outlet/>
     </div>
   )
 }

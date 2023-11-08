@@ -8,10 +8,12 @@ import WhyBitss from '../Contents/WhyBitss';
 import Footer from '../Footer/Footer';
 import Home from '../Home/Home';
 import Navbar from '../Navbar/Navbar';
+import { Outlet } from 'react-router-dom';
 
 const English = () => {
   return (
     <div>
+      <div>
         <Navbar/>
         <Home/>
         <Rings/>
@@ -21,6 +23,8 @@ const English = () => {
         <About/> 
         <WhyBitss/>
         <Footer/>
+      </div>
+      <Outlet/>
     </div>
   )
 }
