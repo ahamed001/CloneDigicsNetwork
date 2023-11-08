@@ -1,30 +1,16 @@
-// import './App.css';
-// import About from './Contents/About';
-// import FRC from './Contents/FRC';
-// import Rings from './Contents/Rings';
-// import Services from './Contents/Services';
-// import Succeed from './Contents/Succeed';
-// import WhyBitss from './Contents/WhyBitss';
-// import Footer from './Footer/Footer';
-// import Home from './Home/Home';
-// import Navbar from './Navbar/Navbar';
+import { Routes, Route } from "react-router-dom";
 import English from "./Languages/English";
-// import French from "./Languages/French";
+import French from "./Languages/French";
+import LandingPage from "./Landing Page/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/>
-      <Home/>
-      <Rings/>
-      <FRC/>
-      <Succeed/>
-      <Services/>
-      <About/> 
-      <WhyBitss/>
-      <Footer/>  */}
-      <English/>
-      {/* <French/> */}
+      <Routes>
+        <Route path="/" element={<LandingPage/>}/>
+        <Route path="/English" element={<English/>}/>
+        <Route path="/French" element={<French/>}/>
+      </Routes>
     </div>
   );
 }

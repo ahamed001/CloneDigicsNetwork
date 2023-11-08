@@ -32,3 +32,9 @@ code {
   background-size: cover; 
   background-repeat: no-repeat;
 }
+
+.LandingPage{
+  background-image: url('./Assets/LandingPage.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
